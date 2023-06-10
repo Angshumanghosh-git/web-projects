@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GaMa</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="menu_side">
+                <h1>Playlist</h1>
+                <div class="playlist">
+                    <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h4>
+                    <h4><span></span><i class="bi bi-music-note-beamed"></i>Last Listening</h4>
+                    <h4><span></span><i class="bi bi-music-note-beamed"></i>Recomended</h4>
+                </div>
+                <div class="menu_song">
+                    <li class="songItem">
+                        <span>1</span>
+                        <img src="img/1.jpg" alt="" >
+                        <h5>Hislerim<br>
+                            <div class="subtitle">Semhus dumus</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle" id="1"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>2</span>
+                        <img src="img/2.jpg" alt="" >
+                        <h5>Mi Amor<br>
+                            <div class="subtitle">Sharn</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle" id="2"></i>
+                    </li>
+                    <li class="songItem">
+                        <span>3</span>
+                        <img src="img/3.jpg" alt="" >
+                        <h5>Monody<br>
+                            <div class="subtitle">The fat rat</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle" id="3"></i>
+                    </li><li class="songItem">
+                        <span>4</span>
+                        <img src="img/4.jpg" alt="" >
+                        <h5>Distance love<br>
+                            <div class="subtitle">Zehr Vibe</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle" id="4"></i>
+                    </li><li class="songItem">
+                        <span>5</span>
+                        <img src="img/5.jpg" alt="" >
+                        <h5>Gall Khaas<br>
+                            <div class="subtitle">Zehr vibe</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle" id="5"></i>
+                    </li><li class="songItem">
+                        <span>6</span>
+                        <img src="img/6.jpg" alt="" >
+                        <h5>Bismillah<br>
+                            <div class="subtitle">Amrit Mann</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle" id="6"></i>
+                    </li><li class="songItem">
+                        <span>7</span>
+                        <img src="img/7.jpg" alt="" >
+                        <h5>Blinding Lights<br>
+                            <div class="subtitle">The weekend</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle" id="7"></i>
+                    </li><li class="songItem">
+                        <span>8</span>
+                        <img src="img/8.jpg" alt="" >
+                        <h5>Unstoppable<br>
+                            <div class="subtitle">Sia</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle" id="8"></i>
+                    </li><li class="songItem">
+                        <span>9</span>
+                        <img src="img/9.jpg" alt="" >
+                        <h5>Remember the name<br>
+                            <div class="subtitle">Williams</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle" id="9"></i>
+                    </li><li class="songItem">
+                        <span>10</span>
+                        <img src="img/10.jpg" alt="" >
+                        <h5>Him&I<br>
+                            <div class="subtitle">Halsey</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle" id="10"></i>
+                    </li><li class="songItem">
+                        <span>11</span>
+                        <img src="img/11.jpg" alt="" >
+                        <h5>I will dance with my hands<br>
+                            <div class="subtitle">Lady gaga</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle" id="11"></i>
+                    </li><li class="songItem">
+                        <span>12</span>
+                        <img src="img/12.jpg" alt="" >
+                        <h5>Safar<br>
+                            <div class="subtitle">Juss</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle" id="12"></i>
+                    </li><li class="songItem">
+                        <span>13</span>
+                        <img src="img/13.jpg" alt="" >
+                        <h5>Gang wale munde<br>
+                            <div class="subtitle">Paradox</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle" id="13"></i>
+                    </li><li class="songItem">
+                        <span>14</span>
+                        <img src="img/14.jpg" alt="" >
+                        <h5>Balam Pichkari<br>
+                            <div class="subtitle">Pritam</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle" id="14"></i>
+                    </li><li class="songItem">
+                        <span>15</span>
+                        <img src="img/15.jpg" alt="" >
+                        <h5>Aadat<br>
+                            <div class="subtitle">Ninja</div>
+                        </h5>
+                        <i class="bi playListPlay bi-play-circle" id="15"></i>
+                    </li>
+                </div>
+            </div>
+            <div class="song_side">
+                <nav>
+                    <ul>
+                        <li>DISCOVER <span></span></li>
+                        <li>MY LIBRARY</li>
+                         <li>RADIO</li>
+                    </ul>
+                    <div class="search">
+                        <i class="bi bi-search"></i>
+                        <input type="text" placeholder="Search Music...."> 
+                    </div>
+                    <div class="user">
+                        <img src="img/Angshuman.jpg" alt="">
+                    </div>
+                </nav>
+                <div class="content">
+                    <h1>The Weekend-Blinding lights</h1>
+                    <p>lovely<br>alone</p>
+                    <div class="buttons">
+                        <button>PLAY</button>
+                        <button>FOLLOW</button>
+                    </div>
+                </div>
+                <div class="popular_song">
+                    <div class="h4">
+                        <h4>Popular song</h4>
+                        <div class="btn_s">
+                            <i class="bi bi-arrow-left" id="pop_song_left"></i> 
+                            <i class="bi bi-arrow-right" id="pop_song_right"></i>
+                        </div>
+                    </div>
+                    <div class="pop_song">
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="img/1.jpg" alt="" >
+                                <i class="bi playListPlay bi-play-circle" id="1"></i>
+                            </div>
+                            <h5>
+                                Hislerim <br>
+                                <div class="subtitle">Semhus dumus</div>
+                            </h5>
+                        </li>
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="img/2.jpg" alt="" >
+                                <i class="bi playListPlay bi-play-circle" id="2"></i>
+                            </div>
+                            <h5>
+                                Mi Amor <br>
+                                <div class="subtitle">Sharn</div>
+                            </h5>
+                        </li><li class="songItem">
+                            <div class="img_play">
+                                <img src="img/3.jpg" alt="" >
+                                <i class="bi playListPlay bi-play-circle" id="3"></i>
+                            </div>
+                            <h5>
+                                Monody <br>
+                                <div class="subtitle">The Fat rat</div>
+                            </h5>
+                        </li><li class="songItem">
+                            <div class="img_play">
+                                <img src="img/4.jpg" alt="" >
+                                <i class="bi playListPlay bi-play-circle" id="4"></i>
+                            </div>
+                            <h5>
+                                Distance love <br>
+                                <div class="subtitle">Zehr Vibe</div>
+                            </h5>
+                        </li><li class="songItem">
+                            <div class="img_play">
+                                <img src="img/5.jpg" alt="" >
+                                <i class="bi playListPlay bi-play-circle" id="5"></i>
+                            </div>
+                            <h5>
+                                Gall Khaas <br>
+                                <div class="subtitle">Zehr Vibe</div>
+                            </h5>
+                        </li><li class="songItem">
+                            <div class="img_play">
+                                <img src="img/6.jpg" alt="" >
+                                <i class="bi playListPlay bi-play-circle" id="6"></i>
+                            </div>
+                            <h5>
+                                Bismillah <br>
+                                <div class="subtitle">Amrit Mann</div>
+                            </h5>
+                        </li><li class="songItem">
+                            <div class="img_play">
+                                <img src="img/7.jpg" alt="" >
+                                <i class="bi playListPlay bi-play-circle" id="7"></i>
+                            </div>
+                            <h5>
+                                The Blinding Lights <br>
+                                <div class="subtitle">The Weekend</div>
+                            </h5>
+                        </li><li class="songItem">
+                            <div class="img_play">
+                                <img src="img/8.jpg" alt="" >
+                                <i class="bi playListPlay bi-play-circle" id="8"></i>
+                            </div>
+                            <h5>
+                                Unstoppable <br>
+                                <div class="subtitle">Sia</div>
+                            </h5>
+                        </li><li class="songItem">
+                            <div class="img_play">
+                                <img src="img/9.jpg" alt="" >
+                                <i class="bi playListPlay bi-play-circle" id="9"></i>
+                            </div>
+                            <h5>
+                                Remember the name <br>
+                                <div class="subtitle">Williams</div>
+                            </h5>
+                        </li><li class="songItem">
+                            <div class="img_play">
+                                <img src="img/10.jpg" alt="" >
+                                <i class="bi playListPlay bi-play-circle" id="10"></i>
+                            </div>
+                            <h5>
+                                Him & I<br>
+                                <div class="subtitle">Halsey</div>
+                            </h5>
+                        </li><li class="songItem">
+                            <div class="img_play">
+                                <img src="img/11.jpg" alt="" >
+                                <i class="bi playListPlay bi-play-circle" id="11"></i>
+                            </div>
+                            <h5>
+                                I will dance with my hands <br>
+                                <div class="subtitle">Lady gaga</div>
+                            </h5>
+                        </li><li class="songItem">
+                            <div class="img_play">
+                                <img src="img/12.jpg" alt="" >
+                                <i class="bi playListPlay bi-play-circle" id="12"></i>
+                            </div>
+                            <h5>
+                                Safar <br>
+                                <div class="subtitle">Juss</div>
+                            </h5>
+                        </li><li class="songItem">
+                            <div class="img_play">
+                                <img src="img/13.jpg" alt="" >
+                                <i class="bi playListPlay bi-play-circle" id="13"></i>
+                            </div>
+                            <h5>
+                                Gang wale munde <br>
+                                <div class="subtitle">Paradox</div>
+                            </h5>
+                        </li><li class="songItem">
+                            <div class="img_play">
+                                <img src="img/14.jpg" alt="" >
+                                <i class="bi playListPlay bi-play-circle" id="14"></i>
+                            </div>
+                            <h5>
+                                Balam Pichkari <br>
+                                <div class="subtitle">Pritam</div>
+                            </h5>
+                        </li><li class="songItem">
+                            <div class="img_play">
+                                <img src="img/15.jpg" alt="" >
+                                <i class="bi playListPlay bi-play-circle" id="15"></i>
+                            </div>
+                            <h5>
+                                Aadat <br>
+                                <div class="subtitle">Ninja</div>
+                            </h5>
+                        </li>
+
+                    </div>
+                </div>
+                <div class="popular_artist">
+                    <div class="h4">
+                        <h4>Popular artist</h4>
+                        <div class="btn_s">
+                            <i class="bi bi-arrow-left" id="pop_btn_left"></i>
+                            <i class="bi bi-arrow-right" id="pop_btn_right"></i>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <li>
+                            <img src="img/21.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="img/22.jpg" alt="">
+                        </li><li>
+                            <img src="img/23.jpg" alt="">
+                        </li><li>
+                            <img src="img/24.jpg" alt="">
+                        </li><li>
+                            <img src="img/24.jpg" alt="">
+                        </li><li>
+                            <img src="img/26.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="img/27.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="img/28.jpg" alt="">
+                        </li><li>
+                            <img src="img/29.jpg" alt="">
+                        </li><li>
+                            <img src="img/32.jpg" alt="">
+                        </li><li>
+                            <img src="img/33.jpg" alt="">
+                        </li><li>
+                            <img src="img/34.jpg" alt="">
+                        </li><li>
+                            <img src="img/32.jpg" alt="">
+                        </li><li>
+                            <img src="img/33.jpg" alt="">
+                        </li><li>
+                            <img src="img/34.jpg" alt="">
+                        </li><li>
+                            <img src="img/35.jpg" alt="">
+                        </li>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="master_play">
+                <div class="wave" id="wave">
+                    <div class="wave1"></div>
+                    <div class="wave1"></div>
+                    <div class="wave1"></div> 
+                </div>
+                <img src="img/141.jpg" alt="" id="poster_masterplay">
+                <h5 id="title">
+                    Vande mataram
+                    <div class="subtitle">Bankim chandra</div>
+                </h5>
+                <div class="icon">
+                    <i class="bi shuffle bi-music-note-beamed">next</i>
+                    <i class="bi bi-skip-start-fill" id="back"></i>
+                    <i class="bi bi-play-fill" id="masterPlay"></i>
+                    <i class="bi bi-skip-end-fill" id="next"></i> 
+                    <a href="" download id="download_music"><i class="bi bi-download" ></i></a>
+                </div>
+                <span id="currentStart">0:00</span>
+                <div class="bar">
+                    <input type="range" id="seek" min="0" max="100">
+                    <div class="bar2" id="bar2"></div>
+                    <div class="dot"></div>
+                </div>
+                <span id="currentEnd">0:30</span>
+                <div class="vol">
+                    <i class="bi bi-volume-up-fill" id="vol_icon"></i>
+                    <input type="range" min="0" max="100" id="vol">
+                    <div class="vol_bar"></div>
+                    <div class="dot" id="vol_dot"></div>
+                </div>
+            </div>
+        </header>
+        <script src="app.js"></script>
+    </body>
+</html>
